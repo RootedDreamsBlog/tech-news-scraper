@@ -25,3 +25,15 @@ In a data-driven job market, being able to reliably extract and clean informatio
 ```bash
 git clone [https://github.com/RootedDreamsBlog/tech-news-scraper.git](https://github.com/RootedDreamsBlog/tech-news-scraper.git)
 cd tech-news-scraper
+
+### 2. Install dependencies
+pip install -r requirements.txt
+
+### 3. Run the scraper
+python scraper.py
+```
+
+## Contact
+Built by **RootedDreamsBlog** 
+
+Disclaimer: This project is for educational purposes and respects the robots.txt guidelines of the target website.
