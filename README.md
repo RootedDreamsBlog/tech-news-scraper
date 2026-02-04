@@ -25,25 +25,36 @@ In a data-driven job market, being able to reliably extract and clean informatio
 ```bash
 git clone https://github.com/RootedDreamsBlog/tech-news-scraper.git
 cd tech-news-scraper
+```
 
 ### 2. Create a virtual environment
-# MacOS/Linux
+#### MacOS/Linux
+```bash
 python3 -m venv venv
-
-# Windows
+```
+#### Windows
+```bash
 python -m venv venv
+```
 
 ### 3. Activate the virtual environment
-# MacOS/Linux
+#### MacOS/Linux
+```bash
 source venv/bin/activate
+```
 
-# Windows
+#### Windows
+```bash
 .\venv\Scripts\activate
-
+``
+`
 ### 4. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 5. Run the scraper
+```bash
 python scraper.py
 ```
 ## Preview
