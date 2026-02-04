@@ -65,6 +65,6 @@ python scraper.py
 ![CSV Data View](assets/images/preview-csv.png)
 
 ## Contact
-Built by **RootedDreamsBlog** (https://www.rooteddreams.net)
+Built by **RootedDreamsBlog** (https://www.rooteddreams.net) or read the full article on **web scraping software open source** at https://www.rooteddreams.net/web-scraping-software-open-source/
 
 Disclaimer: This project is for educational purposes and respects the robots.txt guidelines of the target website.
