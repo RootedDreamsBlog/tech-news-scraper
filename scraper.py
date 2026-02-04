@@ -6,12 +6,12 @@ from datetime import datetime
 def scrape_tech_trends():
     url = "https://news.ycombinator.com/"
 
-    # 1. Identify yourself (Good practice in 2026)
+    # 1. Identify yourself (Good practice)
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0"
     }
 
-    print(f"🚀 Fetching data from {url}...")
+    print(f"Fetching data from {url}...")
     response = requests.get(url, headers=headers)
 
     if response.status_code != 200:
@@ -44,7 +44,7 @@ def scrape_tech_trends():
         writer.writeheader()
         writer.writerows(scraped_data)
 
-    print(f"✅ Success! Saved {len(scraped_data)} trends to {filename}")
+    print(f"Success! Saved {len(scraped_data)} trends to {filename}")
 
 if __name__ == "__main__":
     scrape_tech_trends()
