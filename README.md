@@ -1,6 +1,6 @@
 # Tech News Trend Scraper
 
-A high-performance Python script designed to monitor the pulse of the technology industry. This tool automates the collection of top headlines from **Hacker News**, transforming unstructured web data into a structured format for market analysis and trend forecasting.
+A high-performance Python script designed to monitor the pulse of the technology industry. This tool automates the collection of top headlines from **Hacker News**, transforming unstructured web data into a structured format for market analysis and trend forecasting using an open source scrapping tool.
 
 ## Why This Project?
 In a data-driven job market, being able to reliably extract and clean information is a critical skill. I built this tool to demonstrate:
